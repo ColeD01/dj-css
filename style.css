@@ -1,0 +1,27 @@
+
+#box1{
+    display:flex;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: background-color 1s linear 1s, width 1s linear;
+}
+#box1:hover {
+    background-color: green;
+    width: 200px;
+}
+#box2{
+    display: flex;
+    width: 150px;
+    height:150px;
+    background-color: blue;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: background-color 1s linear 1s, width 1s linear;
+}
+#box2:hover {
+    background-color: yellow;
+    width: 300px;
+}
