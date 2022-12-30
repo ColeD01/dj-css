@@ -6,11 +6,12 @@
     background-color: red;
     margin: auto;
     margin-bottom: 20px;
-    transition: background-color 1s linear 1s, width 1s linear;
+    transition: background-color 1s linear 1s, width 1s linear, height 1s linear;
 }
 #box1:hover {
-    background-color: green;
+    background-color: lime;
     width: 200px;
+    height: 300px;
 }
 #box2{
     display: flex;
@@ -19,9 +20,65 @@
     background-color: blue;
     margin: auto;
     margin-bottom: 20px;
-    transition: background-color 1s linear 1s, width 1s linear;
+    transition: background-color 1s linear 1s, width 1s,border-style 1s linear, border-color 1s linear;
 }
 #box2:hover {
     background-color: yellow;
     width: 300px;
+    border-style: dashed;
+    border-color: black;
+}
+#box3{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: background-color 1s linear 1s, width 1s linear, font-size 1s linear ;
+}
+#box3:hover {
+    background-color: blueviolet;
+    width: 350px;
+    font-size:x-large;
+}
+#box4{
+    display: flex;
+    width: 150px;
+    height:150px;
+    background-color: hotpink;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: background-color 1s linear 1s, width 1s linear ;
+}
+#box4:hover {
+    background-color:cornflowerblue ;
+    width: 400px;
+}
+#box5{
+    display: flex;
+    width: 150px;
+    height:150px;
+    background-color:darkorange;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: 1s linear 1s, width 1s linear, border-radius 1s;
+}
+#box5:hover {
+background-color:firebrick;
+width: 450px;
+border-radius: 30px;
+}   
+#box6{
+    display: flex;
+    width: 150px;
+    height:150px;
+    background-color:yellow;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: 1s linear 1s, width 1s linear;
+}
+#box6:hover {
+    background-color: indigo;
+    width: 500px;
 }
